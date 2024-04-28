@@ -15,10 +15,6 @@ module.exports = {
         poppins: ["poppins", "sans-serif"],
         dmsans: ["dm sans", "sans-serif"],
       },
-      boxShadow: {
-        innerb: "inset 0px -1px 0px 0px hsl(214,84%,56%)",
-        innerbb: "inset 0px 1px 0px 0px hsl(271,70%,60%)",
-      },
     },
   },
   variants: {
