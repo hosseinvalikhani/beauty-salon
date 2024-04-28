@@ -27,7 +27,7 @@
   </head>
   <body>
     <nav
-      class="bg-lightWhite h-20 border-b-2 flex justify-between items-center mx-auto px-8 w-full md:px-12 lg:px-24 xl:px-32"
+      class="fixed bg-lightWhite h-20 border-b-2 flex justify-between items-center mx-auto px-8 w-full md:px-12 lg:px-24 xl:px-32"
     >
       <div>
         <img src="../public/img/Logo (1).png" alt="" class="logo" />
@@ -71,53 +71,50 @@
           <span class="hamburger-bottom"></span>
         </button>
       </div>
-    </nav>
-    <!-- <div class="absolute w-full border-b-[1px]"></div> -->
-    <!-- Mobile Menu -->
-    <div
-      id="menu"
-      class="absolute top-0 bottom-0 left-0 right-0 hidden flex-col text-center h-screen content-center items-center justify-center w-full bg-lightWhite md:hidden"
-    >
+      <!-- Mobile Menu -->
       <div
-        class="flex flex-col top-0 w-full gap-12 text-lg text-black uppercase"
+        id="menu"
+        class="absolute bottom-0 left-0 right-0 top-0 hidden flex-col text-center h-[100vh] content-center items-center justify-center w-full bg-lightWhite md:hidden"
       >
-        <div>
-          <a
-            href="#"
-            class="text-black tracking-widest font-poppins font-bold transition-all duration-100 p-4 hover:text-midGreen hover:border-b-[2px] hover:border-midGreen"
-            >Início
-          </a>
-        </div>
-        <div>
-          <a
-            href="#"
-            class="text-black tracking-widest font-poppins font-bold transition-all duration-100 p-4 hover:text-midGreen hover:border-b-[2px] hover:border-midGreen"
-            >Sobre
-          </a>
-        </div>
-        <div>
-          <a
-            href="#"
-            class="text-black tracking-widest font-poppins font-bold transition-all duration-100 p-4 hover:text-midGreen hover:border-b-[2px] hover:border-midGreen"
-            >Serviços
-          </a>
-        </div>
-        <div>
-          <a
-            href="#"
-            class="text-black tracking-widest font-poppins font-bold transition-all duration-100 p-4 hover:text-midGreen hover:border-b-[2px] hover:border-midGreen"
-            >Depoimentos
-          </a>
-        </div>
-        <div>
-          <a
-            href="#"
-            class="text-black tracking-widest font-poppins font-bold transition-all duration-100 p-4 hover:text-midGreen hover:border-b-[2px] hover:border-midGreen"
-            >Contato
-          </a>
+        <div class="flex flex-col w-full gap-12 text-lg text-black uppercase">
+          <div>
+            <a
+              href="#"
+              class="text-black tracking-widest font-poppins font-bold transition-all duration-100 p-4 hover:text-midGreen hover:border-b-[2px] hover:border-midGreen"
+              >Início
+            </a>
+          </div>
+          <div>
+            <a
+              href="#"
+              class="text-black tracking-widest font-poppins font-bold transition-all duration-100 p-4 hover:text-midGreen hover:border-b-[2px] hover:border-midGreen"
+              >Sobre
+            </a>
+          </div>
+          <div>
+            <a
+              href="#"
+              class="text-black tracking-widest font-poppins font-bold transition-all duration-100 p-4 hover:text-midGreen hover:border-b-[2px] hover:border-midGreen"
+              >Serviços
+            </a>
+          </div>
+          <div>
+            <a
+              href="#"
+              class="text-black tracking-widest font-poppins font-bold transition-all duration-100 p-4 hover:text-midGreen hover:border-b-[2px] hover:border-midGreen"
+              >Depoimentos
+            </a>
+          </div>
+          <div>
+            <a
+              href="#"
+              class="text-black tracking-widest font-poppins font-bold transition-all duration-100 p-4 hover:text-midGreen hover:border-b-[2px] hover:border-midGreen"
+              >Contato
+            </a>
+          </div>
         </div>
       </div>
-    </div>
+    </nav>
 
     <section
       class="flex flex-col mx-auto items-center justify-center py-20 xl:flex-col"
@@ -170,7 +167,7 @@
 
     <footer class="bg-midGreen">
       <div
-        class="flex flex-col items-start justify-between mx-auto w-full px-6 py-16 md:px-12 lg:px-24 xl:px-32 lg:items-center sm:flex-row"
+        class="flex flex-col items-start justify-between mx-auto w-full px-6 py-16 md:px-12 lg:px-24 xl:px-32 md:items-center sm:flex-row"
       >
         <div>
           <img src="./../public/img/Logo-footer.png" alt="" />

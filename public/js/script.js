@@ -1,7 +1,8 @@
 const btn = document.getElementById("menu-btn");
 const menu = document.getElementById("menu");
 const logo = document.querySelector(".logo");
-
+const body = document.querySelector("body");
+console.log(body);
 console.log(logo);
 btn.addEventListener("click", navToggle);
 
@@ -11,6 +12,7 @@ function navToggle() {
   menu.classList.toggle("hidden");
   logo.classList.toggle("flex");
   logo.classList.toggle("hidden");
+  body.classList.toggle("overflow-hidden");
 }
 
 const btnFaq = document.querySelectorAll(".btn-faq");
