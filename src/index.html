@@ -25,7 +25,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
-  <body>
+  <body class="">
     <nav
       class="fixed bg-lightWhite h-20 border-b-2 flex justify-between items-center mx-auto px-8 w-full md:px-12 lg:px-24 xl:px-32"
     >
@@ -116,8 +116,78 @@
       </div>
     </nav>
 
+    <section class="flex flex-col pt-40 px-6 bg-lightGray">
+      <!-- text -->
+      <div
+        class="flex flex-col items-start text-left sm:text-center sm:items-center"
+      >
+        <h1 class="font-poppins font-bold text-3xl leading-normal">Serviços</h1>
+        <p
+          class="mt-4 font-dmsans font-normal text-base leading-6 sm:max-w-sm lg:max-w-lg lg:mt-3"
+        >
+          Com mais de 10 anos no mercado, o
+          <span class="text-midGreen font-bold">Beautysalon</span>
+          já<br class="hidden lg:block" />
+          conquistou clientes de inúmeros países com seus tratamentos exclusivos
+          e totalmente naturais
+        </p>
+      </div>
+      <!-- cards -->
+      <div
+        class="grid mx-auto mt-16 grid-cols-1 gap-x-0 gap-y-6 md:grid-cols-2 xl:grid-cols-3 md:gap-x-8 xl:gap-y-0"
+      >
+        <!-- Terapia capilar -->
+        <div
+          class="flex flex-col items-center justify-center text-center w-[327px] h-[372px] bg-lightGray shadow-cr rounded-t-md mx-auto border-b-4 border-midGreen md:w-[352px] md:[352px]"
+        >
+          <img
+            src="./../public/img/teraphia-Icon.svg"
+            alt=""
+            class="w-20 h-20"
+          />
+          <div class="mt-6 space-y-3">
+            <h3 class="font-poppins font-bold text-2xl">Terapia capilar</h3>
+            <p class="px-8 font-dmsans text-darkGray leading-6">
+              Terapia completa para couro cabeludo e fios, protegendo todos os
+              tipos de cabelos, inclusive os longos e finos.
+            </p>
+          </div>
+        </div>
+        <!-- Cortes -->
+        <div
+          class="flex flex-col items-center justify-center text-center w-[327px] h-[372px] bg-lightGray shadow-cr rounded-t-md mx-auto border-b-4 border-midGreen md:w-[352px] md:[352px]"
+        >
+          <img src="./../public/img/cortes-Icon.svg" alt="" class="w-20 h-20" />
+          <div class="mt-6 space-y-3">
+            <h3 class="font-poppins font-bold text-2xl">Cortes</h3>
+            <p class="px-8 font-dmsans text-darkGray leading-6">
+              A nossa equipe é repleta de profissionais renomados, famosos por
+              lançarem tendências com cortes diferenciados e clássicos.
+            </p>
+          </div>
+        </div>
+
+        <!-- Tratamentos -->
+        <div
+          class="flex flex-col items-center justify-center text-center w-[327px] h-[372px] bg-lightGray shadow-cr rounded-t-md mx-auto border-b-4 border-midGreen md:w-[352px] md:[352px]"
+        >
+          <img
+            src="./../public/img/Tratamentos-Icon.svg"
+            alt=""
+            class="w-20 h-20"
+          />
+          <div class="mt-6 space-y-3">
+            <h3 class="font-poppins font-bold text-2xl">Tratamentos</h3>
+            <p class="px-8 font-dmsans text-darkGray leading-6">
+              O beautysalon conta com diversos tratamentos naturais e totalmente
+              veganos, para qualquer tipo de cabelo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
     <section
-      class="flex flex-col mx-auto items-center justify-center py-20 xl:flex-col"
+      class="flex flex-col mx-auto bg-lightGray items-center justify-center py-20 xl:flex-col"
     >
       <div
         class="flex flex-col items-start mx-auto w-full px-8 py-6 md:px-12 lg:px-24 xl:px-32 md:items-center sm:flex-row"
