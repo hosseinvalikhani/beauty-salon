@@ -9,6 +9,7 @@ module.exports = {
         midGreen: "hsla(159, 36%, 57%, 1)",
         lightGreen: "hsla(159, 65%, 88%, 1)",
         lightGray: "hsla(0, 0%, 98%, 1)",
+        midGray: "hsla(0, 0%, 89%, 1)",
         lightWhite: "hsla(0, 0%, 100%, 1)",
         darkGray: "hsla(0, 0%, 46%, 1)",
       },
@@ -18,6 +19,7 @@ module.exports = {
       },
       boxShadow: {
         cr: "0px -1px 8px 1px lightGray",
+        cl: "0px 0px 8px 1px lightGray",
       },
       gridTemplateColumns: {
         // Simple 16 column grid
