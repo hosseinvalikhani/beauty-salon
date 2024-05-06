@@ -51,3 +51,33 @@
 .btn-open {
   transform: rotate(45deg);
 }
+
+.dots__dot {
+  border: none;
+  background-color: hsla(0, 0%, 89%, 1);
+
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.dots__dot--active {
+  background-color: hsla(159, 36%, 57%, 1);
+  opacity: 1;
+}
+
+.dots__dot__mob {
+  border: none;
+  background-color: hsla(0, 0%, 89%, 1);
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.dots__dot__mob--active {
+  background-color: hsla(159, 36%, 57%, 1);
+  opacity: 1;
+}
