@@ -641,6 +641,10 @@ video {
   margin-top: 2px;
 }
 
+.mt-\[58px\] {
+  margin-top: 58px;
+}
+
 .block {
   display: block;
 }
@@ -681,6 +685,18 @@ video {
   height: 372px;
 }
 
+.h-\[703px\] {
+  height: 703px;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
 .w-20 {
   width: 5rem;
 }
@@ -695,6 +711,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .max-w-72 {
@@ -749,6 +773,10 @@ video {
   gap: 2rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .gap-x-0 {
   -moz-column-gap: 0px;
        column-gap: 0px;
@@ -762,6 +790,10 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-full {
@@ -816,6 +848,10 @@ video {
 
 .p-8 {
   padding: 2rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .px-6 {
@@ -1028,6 +1064,36 @@ video {
   transform: rotate(45deg);
 }
 
+.dots__dot {
+  border: none;
+  background-color: hsla(0, 0%, 89%, 1);
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.dots__dot--active {
+  background-color: hsla(159, 36%, 57%, 1);
+  opacity: 1;
+}
+
+.dots__dot__mob {
+  border: none;
+  background-color: hsla(0, 0%, 89%, 1);
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.dots__dot__mob--active {
+  background-color: hsla(159, 36%, 57%, 1);
+  opacity: 1;
+}
+
 .hover\:border-b-\[2px\]:hover {
   border-bottom-width: 2px;
 }
@@ -1151,16 +1217,16 @@ video {
     margin-top: 0.75rem;
   }
 
-  .lg\:mt-\[58px\] {
-    margin-top: 58px;
-  }
-
   .lg\:block {
     display: block;
   }
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:h-\[826px\] {
+    height: 826px;
   }
 
   .lg\:max-w-lg {
@@ -1174,6 +1240,14 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:ml-16 {
+    margin-left: 4rem;
+  }
+
+  .xl\:ml-8 {
+    margin-left: 2rem;
+  }
+
   .xl\:ml-96 {
     margin-left: 24rem;
   }
