@@ -8,6 +8,7 @@ module.exports = {
         darkGreen: "hsla(159, 41%, 10%, 1)",
         midGreen: "hsla(159, 36%, 57%, 1)",
         lightGreen: "hsla(159, 65%, 88%, 1)",
+        vlightGreen: "rgba(204, 244, 230, 1)",
         lightGray: "hsla(0, 0%, 98%, 1)",
         midGray: "hsla(0, 0%, 89%, 1)",
         lightWhite: "hsla(0, 0%, 100%, 1)",
