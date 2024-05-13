@@ -6,8 +6,6 @@ module.exports = {
     extend: {
       screens: {
         xs: "450px",
-
-        // => @media (min-width: 992px) { ... }
       },
       colors: {
         darkGreen: "hsla(159, 41%, 10%, 1)",
@@ -18,6 +16,7 @@ module.exports = {
         midGray: "hsla(0, 0%, 89%, 1)",
         lightWhite: "hsla(0, 0%, 100%, 1)",
         darkGray: "hsla(0, 0%, 46%, 1)",
+        textGray: "rgba(118, 118, 118, 1)",
       },
       fontFamily: {
         poppins: ["poppins", "sans-serif"],
