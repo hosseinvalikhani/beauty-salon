@@ -4,6 +4,11 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      screens: {
+        xs: "450px",
+
+        // => @media (min-width: 992px) { ... }
+      },
       colors: {
         darkGreen: "hsla(159, 41%, 10%, 1)",
         midGreen: "hsla(159, 36%, 57%, 1)",
